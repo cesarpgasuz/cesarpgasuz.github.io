@@ -1,10 +1,236 @@
+/* fuentes */
+
+@font-face{
+    font-family: "cour";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/cour.ttf);
+}
+
+@font-face{
+    font-family: "courbd";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/courbd.ttf);
+}
+
+/*----- nav bar ----*/
+.nav-top{
+    height: auto;
+    width: 100%;
+    background: #141e30;
+    padding-top: 50px;
+}
+
+.nav-top a{
+    font-size: 16px;
+    color: #fff;
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+}
+
+
+.navbar a img{
+    position: relative;
+    margin-top: -20px;
+}
+
+
+/* ---- seccciones ---*/
+
+
 .seccion-blue{
     height: auto;
     width: 100%;
-    background-color: #141e30;
+    background: #141e30;
+    font-family: "cour", Arial, Helvetica, sans-serif;
 }
+
+.seccion-blue p{
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    color: #8aff22;
+    font-size: 18px;
+}
+.seccion-blue p:first-child{
+    margin-bottom: 45px;
+}
+.seccion-blue p:last-child{
+    margin-top: 45px;
+}
+.seccion-blue p span{
+    color: #00f6ff;
+}
+
+
 .seccion-white{
     height: auto;
     width: 100%;
-    background-color: #ffffff;
+    background:#fff;
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+
+
+
+
+/* ----  banner --- */
+.banner{
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.banner  ul li:nth-child(1){
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 24px;
+}
+.banner ul li:nth-child(2){
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+.banner ul li:nth-child(3){
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 24px;
+}
+.banner ul li span:first-child{
+    color: #00f6ff;
+}
+.banner ul li span:last-child{
+    color: #dcf001;
+}
+
+
+
+/* ---- sobre mi --- */
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.intro p:nth-child(1){
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.intro p:nth-child(2){
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 500px;
+    line-height: 30px;
+
+}
+
+.intro p:nth-child(3){
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+
+/* seccion habilidades --> lista */
+.habilidades{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.habilidades li{
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 36px
+}
+
+.habilidades li:nth-child(1){
+    color: #ff5f2e;
+}
+.habilidades li:nth-child(2){
+    color: #00ffc0;
+}
+.habilidades li:nth-child(3){
+    color: #9561ff;
+    border: 1px solid #9561ff;
+    display: inline-block;
+    padding: 2px 20px 2px 20px;
+    position: relative;
+    margin-left: -20px;
+}
+.habilidades li:nth-child(4){
+    color: #f6ff00;
+}
+.habilidades li:nth-child(5){
+    color: #00fffc;
+    border: 1px solid #00fffc;;
+    display: inline-block;
+    padding: 2px 20px 2px 20px;
+    position: relative;
+    margin-left: -20px;
+}
+    
+/*----- work  ---*/
+.work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.work p:first-child{
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.work p:last-child{
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.work ul li{
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* ---- redes sociales ------ */
+
+.rsocial{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.rsocial ul li{
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+
+}
+
+
+/* ---- contacto --- */
+
+.contact{
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.contact p:first-child{
+    font-family: "courbd", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 160px;
+
+}
+
+.contact p:last-child{
+    font-size: 16px;
+}
+
+.contact p:last-child img{
+    position: relative;
+    margin-top: -15px;
 }
