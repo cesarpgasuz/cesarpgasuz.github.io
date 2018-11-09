@@ -352,3 +352,42 @@ a{
      50% { opacity: 0.0; }
     100% { opacity: 1.0; }
   }
+
+
+
+
+  /*--- banner paginas plantilla ---*
+
+  /* ----  banner --- */
+.banner-pages{
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.banner-pages  ul li{
+    font-family: "cour", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 52px;
+}
+
+.espac{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.modales{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: "cour", Arial, Helvetica, sans-serif;
+}
+
+
+/*
+para cambiar la sombra al ejecutar el modal, cambiar en bootstrap.css
+.modal-backdrop.show {
+    opacity: 1;
+  }
+
+  */
