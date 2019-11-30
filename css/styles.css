@@ -307,8 +307,8 @@ a{
     
 }
 .contact p a:hover{
-    color: red;
-    border-bottom: 2px solid red;
+    color:#F40892;
+    border-bottom: 2px solid #F40892;
     padding-bottom: 5px;
 }
 .contact p:last-child{
