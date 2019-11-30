@@ -142,7 +142,7 @@ a{
 .intro p:nth-child(2){
     font-family: "cour", Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin-right: 500px;
+    
     line-height: 30px;
     cursor: url(../archivos/beam_r.cur), default;
 
