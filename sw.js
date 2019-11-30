@@ -6,7 +6,8 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
     'https://fonts.googleapis.com/css?family=Raleway:400,700',
     'css/styles.css',
 	'css/bootstrap.css',
-    'script.js'
+    'script.js',
+	'index.html'  
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
