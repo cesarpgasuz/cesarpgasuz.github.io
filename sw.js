@@ -2,7 +2,7 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
-  
+  	'./',
     'https://fonts.googleapis.com/css?family=Raleway:400,700',
     'css/styles.css',
 	'css/btstrap.css',
