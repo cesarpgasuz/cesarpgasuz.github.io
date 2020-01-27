@@ -1,5 +1,0 @@
-#ignora archivos .map de la carpeta js
-js/*.map
-
-#ignora archivos .map de la carpeta css
-css/*.map
