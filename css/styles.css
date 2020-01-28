@@ -1,0 +1,95 @@
+body{
+	font-family: 'Space Mono', monospace !important;
+}
+
+
+.mq-a{
+	color: #00d8ff;
+}
+.ll-r{
+	color: #f40c48;
+}
+.f-a{
+	background: #fff900;
+}
+.f-r{
+	background: #f40c48;
+}
+.f-az{
+	background: #00d8ff;
+}
+
+
+
+/* estilos banner */
+.banner{
+	width: 100%;
+	min-height: 600px;
+	background: #000e16;
+	padding-top: 170px;
+}
+.banner h1{
+	color: #fff900;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.banner h2{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.banner p{
+	color: #bababa;
+	line-height: 30px;
+	font-size: 16px;
+	margin-left: 20px;
+	text-align: left;
+}
+.logo{
+	text-align: center;
+}
+
+.banner .f-a{
+	color: #000;
+	padding: 0px 5px 0px 5px;
+}
+.banner .f-r{
+	color: #fff;
+	padding: 0px 5px 0px 5px;
+}
+.banner .f-az{
+	color: #000;
+	padding: 0px 5px 0px 5px;
+}
+
+/* estilos servicios */
+
+.info{
+	padding-top: 130px;
+	padding-bottom: 50px;
+
+}
+.servicios h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #292929;
+	margin-bottom: 30px;
+}
+.servicios ul li{
+	line-height: 30px;
+	color: #292929;
+	font-size: 16px;
+}
+
+.servicios .f-a{
+	color: #000;
+	padding: 0px 10px 0px 10px;
+}
+.servicios .f-r{
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+}
+.servicios .f-az{
+	color: #000;
+	padding: 0px 10px 0px 10px;
+}
