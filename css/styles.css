@@ -19,6 +19,10 @@ body{
 	background: #00d8ff;
 }
 
+.diagonal{
+	margin-left: -10px;
+	position: relative;
+}
 
 
 /* estilos banner */
@@ -62,12 +66,21 @@ body{
 	padding: 0px 5px 0px 5px;
 }
 
+.menor-q{
+	position: relative;
+	margin-left: -20px;
+}
+
 /* estilos servicios */
 
 .info{
 	padding-top: 130px;
 	padding-bottom: 50px;
 
+}
+.servicios{
+	min-height: 380px;
+	width: 100%;
 }
 .servicios h3{
 	font-size: 24px;
@@ -92,4 +105,111 @@ body{
 .servicios .f-az{
 	color: #000;
 	padding: 0px 10px 0px 10px;
+}
+
+/* seccion trabajos */
+.works{
+	min-height: 430px;
+	width: 100%;
+}
+.works h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #292929;
+	margin-bottom: 30px;
+}
+.works p{
+	font-size: 16px;
+	color: #292929;
+}
+.works ul li{
+	line-height: 30px;
+}
+.works .sub-title-proyects{
+	font-size: 14px;
+	color: #999898;
+	font-style: italic;
+
+}
+
+/* seccion redes sociales */
+
+.sociales{
+	min-height: 300px;
+	width: 100%;
+}
+.sociales h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #292929;
+	margin-bottom: 50px;
+}
+.sociales ul li{
+	padding:0px 15px 0px 15px;
+	font-weight: 700;
+	font-size: 16px;
+}
+.sociales .twitter{
+	background: #f40c48;
+	color: #fff;
+	
+}
+.sociales .facebook{
+	background: #00d8ff;
+	color: #000;
+
+}
+.sociales .facebook{
+	background: #00d8ff;
+	color: #000;
+}
+.sociales .instagram{
+	background: #fff900;
+	color: #000;
+}
+.sociales .linkedin{
+	background: #000;
+	color: #fff;
+}
+
+/* seccion contacto */
+.contacto{
+	min-height: 300px;
+	width: 100%;
+	background: #000e16;
+	padding-top: 50px;
+}
+.contacto img{
+	margin-top: 70px;
+}
+.contacto h3, .contacto p {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 700;
+}
+.contacto ul{
+	margin: 30px 0px 30px 0px;
+}
+.contacto ul li{
+	color: #fff900;
+	line-height: 30px;
+	font-size: 18px;
+}
+.contacto .p-wh{
+	color: #fff;
+}
+
+
+/* seccion footer */
+.pie{
+	padding-bottom: 35px;
+	background: #000e16;
+}
+.pie p{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.pie p span{
+	color: #f40c48;
 }
