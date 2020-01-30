@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
 	font-family: 'Space Mono', monospace !important;
 }
@@ -59,12 +63,14 @@ body{
 	display: none;
 }
 
+
+
 /* estilos banner */
 .banner{
 	width: 100%;
-	min-height: 600px;
 	background: #000e16;
 	padding-top: 170px;
+	padding-bottom: 120px;
 }
 .banner h1{
 	color: #fff900;
@@ -107,14 +113,11 @@ body{
 
 /* estilos servicios */
 
-.info{
+.servicios{
+
+	width: 100%;
 	padding-top: 130px;
 	padding-bottom: 50px;
-
-}
-.servicios{
-	min-height: 380px;
-	width: 100%;
 }
 .servicios h3{
 	font-size: 24px;
@@ -141,9 +144,19 @@ body{
 	padding: 0px 10px 0px 10px;
 }
 
+.img-programador{
+	display: none;
+}
+
+
+
 /* seccion trabajos */
+
+
+
 .works{
-	min-height: 430px;
+	padding-top: 130px;
+	padding-bottom: 50px;
 	width: 100%;
 }
 .works h3{
@@ -157,7 +170,7 @@ body{
 	color: #292929;
 }
 .works ul li{
-	line-height: 30px;
+	
 }
 .works .sub-title-proyects{
 	font-size: 14px;
@@ -165,12 +178,16 @@ body{
 	font-style: italic;
 
 }
+.github-img{
+	text-align: center;
+}
 
 /* seccion redes sociales */
 
 .sociales{
-	min-height: 300px;
 	width: 100%;
+	padding-top: 130px;
+	padding-bottom: 50px;
 }
 .sociales h3{
 	font-size: 24px;
@@ -208,10 +225,10 @@ body{
 
 /* seccion contacto */
 .contacto{
-	min-height: 300px;
 	width: 100%;
 	background: #000e16;
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .contacto img{
 	margin-top: 70px;
@@ -232,6 +249,9 @@ body{
 .contacto .p-wh{
 	color: #fff;
 }
+.contacto-sec{
+	display: none;
+}
 
 
 /* seccion footer */
@@ -247,3 +267,168 @@ body{
 .pie p span{
 	color: #f40c48;
 }
+
+
+/* diseñor responsivo */
+.menu-1{
+	display: block !important;
+}
+.menu-2{
+	display: none !important;
+}
+
+
+@media screen and (max-width: 1199px){
+	.banner h2{
+		font-size: 26px;
+	}
+}
+
+
+
+@media screen and (max-width: 991px){
+	.espaciado{
+		margin-top: 0px !important;
+	}
+	.hamburguesa{
+		display: none;
+	}
+	.menu-1{
+		display: none !important;
+	}
+	.menu-2{
+		display: block !important;
+		text-align: center;
+	}
+	.logo-mini span{
+		color: #fff !important;
+	}
+	.logo-mini-im{
+		display: inline-block !important;
+	}
+	.banner .perfil{
+		display: none;
+		
+	}
+	.banner h1{
+		display: none;
+	}
+	.banner h2{
+		font-size: 24px;
+	}
+	.banner p{
+		margin-left: 0px;
+	}
+	
+	/*--- servicios --- */
+	.servicios .servicios-tarjetas{
+		margin-bottom: 80px;
+	}
+	.img-programador{
+		display: block;
+	}
+	
+	
+	/* -- trabajos -- */
+	.works{
+		padding-top: 0px;
+	}
+	
+	/*-- redes sociales --*/
+	.sociales{
+		padding-top: 50px;
+	}
+	
+}
+
+
+@media screen and (max-width: 767px){
+	.banner{
+		padding-top: 120px;
+		padding-bottom: 100px;
+	}
+	.banner h2{
+		text-align: center;
+	}
+	.banner p{
+		text-align: center;
+	}
+	.banner .logo-pri{
+		width: 220px;
+		margin-top: 50px;
+	}
+	
+	/* --- trabajos -- */
+	
+	.works h3{
+		text-align: center;
+	}
+	.works img{
+		margin-bottom: 30px;
+	}
+	
+	
+	/* --- redes sociales -- */
+	.sociales h3{
+		text-align: center;
+	}
+	.sociales ul{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 465px){
+	.banner .logo-pri{
+		display: none;
+	}
+	.servicios{
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 100px;
+	}
+	.works .gato{
+		width: 150px;
+	}
+	.works strong{
+		display: none;
+	}
+	.works ul li{
+		text-align: center;
+	}
+	.works .lista{
+		padding-left: 5%;
+		padding-right: 5%;
+		
+	}
+	.contacto h3{
+		display: none;
+	}
+	.contacto-sec{
+		display: block !important;
+		text-align: center;
+		font-size: 24px;
+		color: #fff;
+		font-weight: 700;
+	}
+	.contacto ul li{
+		text-align: center;
+	}
+	.contacto span, .contacto p{
+		display: none;
+	}
+	
+	.sociales ul li{
+		margin: 20px 20px 20px 20px;
+	}
+}
+
+@media screen and (min-width: 466px){
+	br{
+		display: none;
+		
+	}
+	
+}
+
+

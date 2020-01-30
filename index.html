@@ -2,8 +2,10 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Cesarpgasuz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+
+<title>cesarpgasuz</title>
+<link rel="shortcut icon" href="images/icon.png">
 
 <!-- fuente google space mono -->
 <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet">
@@ -20,8 +22,10 @@
 
 </head>
 
-<body>
-	<nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="main-navbar">
+<body data-spy="scroll" data-target="#main-navbar">
+
+	
+	<nav class="navbar navbar-dark navbar-expand-lg fixed-top menu-1" id="main-navbar">
 	  	<div class="container espaciado">
 		  <a href="#" class="navbar-brand logo-mini"><img src="images/logomini.png" class="img-fluid logo-mini-im" width="40px"><span>cesarpgasuz</span></a>
 		  	<button class="navbar-toggler hamburguesa" type="button" data-toggle="collapse" data-target="#navbarprincipal" aria-controls="navbarprincipal" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,32 +49,40 @@
 			</div>
 		</div>
 	  </nav>
+		
+	<nav class="navbar navbar-dark navbar-expand-lg fixed-top menu-2">
+	  	<div class="container justify-content-center">
+		  <a href="#" class="navbar-brand logo-mini"><img src="images/logomini.png" class="img-fluid logo-mini-im" width="40px"><span>cesarpgasuz</span></a>
+		</div>
+	  </nav>
 
-	
-	<section class="banner">
+
+
+
+	<section class="banner" id="inicio">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-lg-7 col-md-8">
 					<h1>&#35;cesarpgasuz</h1>
-					<h2><span class="mq-a">&#60;</span>Desarrollador<span class="mq-a">&#47;</span> <span class="mq-a menor-q">&#62;</span> <span class="ll-r">&#123;</span> Front-End <span class="ll-r">&#125;</span></h2>
+					<h2><span class="mq-a">&#60;</span>Desarrollador<span class="mq-a">&#47;</span> <span class="mq-a menor-q">&#62;</span> <br><br><span class="ll-r">&#123;</span> Front-End <span class="ll-r">&#125;</span></h2>
 					<div class="media">
-					<img src="images/foto.png" class="align-self-start mr-3" alt="foto-perfil">
+					<img src="images/foto.png" class="align-self-start mr-3 perfil" alt="foto-perfil">
 					<div class="media-body">
 						<p>Hola mi nombre es cesar pablo garcia suarez, tengo 27 años y mi <strong class="f-a">pasión</strong> es el desarrollo y diseño de paginas web, actualmente me enfoco al <strong class="f-r">Front-End.</strong> Utilizo diferentes tecnologias para darles un aspecto <strong class="f-az">increible.</strong></p>
 					</div>
 					</div>
 				</div>
-				<div class="col-md-5 logo">
-					<img src="images/logo.png" alt="logo" class="img-fluid">
+				<div class="col-lg-5 col-md-4 logo">
+					<img src="images/logo.png" alt="logo" class="img-fluid logo-pri">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="info servicios">
+	<section class="servicios">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 servicios-tarjetas">
 					<h3>&#35;Servicios</h3>
 					<ul class="list-unstyled">
 						<li>&#46;Diseño Web</li>
@@ -78,7 +90,7 @@
 						<li>&#46;Diseño Responsivo</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 servicios-tarjetas">
 					<h3>&#35;Habilidades</h3>
 					<ul class="list-unstyled">
 						<li>&#46;HTML5</li>
@@ -88,8 +100,8 @@
 						<li>&#46;Photoshop</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
-					<h3>&#35;Sobre_mi</h3>
+				<div class="col-lg-4 col-md-6 servicios-tarjetas">
+					<h3 id="sobre_mi">&#35;Sobre_mi</h3>
 					<ul class="list-unstyled">
 						<li>Lineas de Codigo &#61; <strong class="f-a">1551052</strong></li>
 						<li>Tazas de Cafe &#61; <strong class="f-r">120</strong></li>
@@ -97,37 +109,46 @@
 						<li>Pincha sobre link para conocer más sobre mi.</li>
 					</ul>
 				</div>
+				<div class="col-md-6 servicios-tarjetas img-programador" style="text-align: center;">
+					<img src="images/programador.gif" class="img-fluid">
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="info works">
+	<section class="works">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<h3>&#35;Mis_Trabajos_Proyectos</h3>
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h3 id="mis_trabajos">&#35;Mis_Trabajos_Proyectos</h3>
 				</div>
-				<div class="col-md-3">
-					<img src="images/github-move.gif" class="img-fluid">
+				<div class="col-lg-4 col-md-3 col-sm-12">
+					<center>
+						<img src="images/github-move.gif" class="img-fluid gato">
+					</center>
+					
 				</div>
-				<div class="col-md-9">
+				<div class="col-lg-8 col-md-9 col-sm-12 col-12  lista">
 					<ul class="list-unstyled">
 						<li>
-							<p><strong class="ll-r"><span class="mq-a">&#60;</span>web<span class="mq-a">&#62;</span></strong>www.cesarpgasuz.xyz/webs<strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>web<span class="mq-a">&#62;</span></strong><br><span class="sub-title-proyects">&#47;&#42; Paginas web que he desarrollado &#42;&#47;</span></p>	
+							<p><strong class="ll-r"><span class="mq-a">&#60;</span>web<span class="mq-a">&#62;</span></strong>www.cesarpgasuz.xyz/webs<strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>web<span class="mq-a">&#62;</span></strong></p>	
 						</li>
+						<li><p><span class="sub-title-proyects">&#47;&#42; Paginas web que he desarrollado &#42;&#47;</span></p></li>
 						<li>
-							<p><strong class="ll-r"><span class="mq-a">&#60;</span>proyect<span class="mq-a">&#62;</span></strong>www.cesarpgasuz.xyz/proyects<strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>proyect<span class="mq-a">&#62;</span></strong><br><span class="sub-title-proyects">&#47;&#42; Proyectos que actualmente estoy desarrollando &#42;&#47;</span></p>	
+							<p><strong class="ll-r"><span class="mq-a">&#60;</span>proyect<span class="mq-a">&#62;</span></strong>www.cesarpgasuz.xyz/proyects<strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>proyect<span class="mq-a">&#62;</span></strong></p>	
 						</li>
+						<li><p><span class="sub-title-proyects">&#47;&#42; Proyectos que actualmente estoy desarrollando &#42;&#47;</span></p></li>
 						<li>
-							<p><strong class="ll-r"><span class="mq-a">&#60;</span>design<span class="mq-a">&#62;</span></strong>www.behance.net/cesarpgasuz<strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>design<span class="mq-a">&#62;</span></strong><br><span class="sub-title-proyects">&#47;&#42; Red Social donde muestro mis Diseños Web &#42;&#47;</span class="sub-title-proyects"></p>
+							<p><strong class="ll-r"><span class="mq-a">&#60;</span>design<span class="mq-a">&#62;</span></strong>www.behance.net/cesarpgasuz<strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>design<span class="mq-a">&#62;</span></strong></p>
 						</li>
+						<li><p><span class="sub-title-proyects">&#47;&#42; Red Social donde muestro mis Diseños Web &#42;&#47;</span></p></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="info sociales">
+	<section class="sociales">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -145,16 +166,17 @@
 
 	<section class="contacto">
 		<div class="container">
-			<div class="row d-flex justify-content-between">
-				<div class="col-md-4">
-					<h3>&#35;Contacto &#123;</h3>
+			<div class="row">
+				<div class="col-lg-7 col-md-8">
+					<h3 id="contacto">&#35;Contacto &#123;</h3>
+					<p class="contacto-sec">&#35;Contacto</p>
 					<ul class="list-unstyled">
 						<li><span class="mq-a">email:</span> cesarpgasuz@gmail.com <span class="p-wh">&#59;</span></li>
 						<li><span class="mq-a">telefono:</span> +52 4191389032 <span class="p-wh">&#59;</span></li>
 					</ul>
 					<p>&#125;</p>
 				</div>
-				<div class="col-md-5" style="text-align: center;">
+				<div class="col-lg-5 col-md-4" style="text-align: center;">
 					<img src="images/source.gif" alt="" srcset="" class="img-fluid" width="240px">
 				</div>
 			</div>
@@ -173,7 +195,8 @@
 	<script src="js/app.js"></script>
 	  
 	  
-	  <script>
+	  
+	<script>
         $(document).ready(function(){
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
@@ -205,6 +228,9 @@
 		 
 		  
     </script>
+		 
+		  
+    
 	  
 
 

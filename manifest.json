@@ -1,13 +1,13 @@
 {
 	"icons" : [
 		{
-			"src": "./images/image-icon.png",
+			"src": "https://cesarpgasuz.xyz/images/image-icon.png",
 			"sizes": "1024x1024",
 			"type": "image/png"
 		}],
 	"name" : "cesarpgasuz",
 	"short_name" : "cesarpgasuz",
-	"description" : "",
+	"description" : "Desarrollador Front-End",
 	"start_url" : "./",
 	"scope" : "./",
 	"display" : "standalone",

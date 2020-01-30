@@ -4,12 +4,12 @@ const CACHE = "pwabuilder-precache";
 const precacheFiles = [
   /* Add an array of files to precache for your app */
 	
-	'./',
+  './',
   'https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap',
   './css/styles.css',
-	'./css/bootstrap.min.css',
+  './css/bootstrap.min.css',
   './js/app.js',
-	'./index.html' 
+  './index.html' 
 	
 	
 ];
