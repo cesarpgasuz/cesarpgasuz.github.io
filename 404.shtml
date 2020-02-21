@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang ="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- elementos css-->
+        <link rel="stylesheet" href="https://cesarpgasuz.xyz/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cesarpgasuz.xyz/css/style-error.css">
+        <!--fuentes -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">       
+  		<title>Error 404</title>
+    </head>
+    
+    
+   <div class="container">
+   
+   <nav class="navbar navbar-expand-lg  menu">
+  	<a class="navbar-brand" href="#">
+    	<img src="https://cesarpgasuz.xyz/images/ballon_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+  	</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <div class="navbar-nav ml-auto">
+    
+      <a class="nav-item nav-link" href="#">Contacto</a>
+      <a class="nav-item nav-link" href="#">FAQ</a>
+     
+    </div>
+  </div>
+</nav>
+	</div>
+	   
+      
+      
+      <section>
+      	<div class="container">
+			
+				<div class="row">
+					<div class="col-md-6">
+						
+							<p class="title">Error<strong>404</strong></p>
+							<p class="sub">Elemento desaparecido.</p>
+							<p class="texto">No puedes retroceder y cambiar el pasado, así que mira hacia el futuro y no cometas el mismo error dos veces.</p>
+					</div>
+					<div class="col-md-6">
+					<div class="efecto-glitch">
+						<img src="https://cesarpgasuz.xyz/images/img1.jpg" class="contener">
+					</div>
+					</div>
+				</div>
+			  </div>
+	
+      </section>
+      
+     
+    
+    
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+</html>
