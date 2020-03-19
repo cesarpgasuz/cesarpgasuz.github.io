@@ -4,7 +4,14 @@ html{
 
 body{
 	font-family: 'Space Mono', monospace !important;
+	cursor: url(../images/pointer.cur), default;
+	
 }
+
+a{
+    cursor: url(../images/link.cur), default;
+}
+
 *::selection{
 	background: #f40c48;
 	color: #000;
@@ -195,33 +202,43 @@ body{
 	color: #292929;
 	margin-bottom: 50px;
 }
-.sociales ul li{
+.sociales ul li a{
 	padding:0px 15px 0px 15px;
 	font-weight: 700;
 	font-size: 16px;
 }
-.sociales .twitter{
+.sociales ul li a:link{
+	text-decoration: none;
+	outline: none;
+}
+.sociales ul li a:visited{
+	text-decoration: none;
+	outline: none;
+}
+.sociales .twitter a{
 	background: #f40c48;
 	color: #fff;
 	
 }
-.sociales .facebook{
-	background: #00d8ff;
-	color: #000;
-
-}
-.sociales .facebook{
+.sociales .facebook a{
 	background: #00d8ff;
 	color: #000;
 }
-.sociales .instagram{
+.sociales .facebook a{
+	background: #00d8ff;
+	color: #000;
+}
+.sociales .instagram a{
 	background: #fff900;
 	color: #000;
 }
-.sociales .linkedin{
+.sociales .linkedin a{
 	background: #000;
 	color: #fff;
 }
+
+
+
 
 /* seccion contacto */
 .contacto{
