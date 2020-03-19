@@ -1,0 +1,18 @@
+{
+	"icons" : [
+		{
+			"src": "https://cesarpgasuz.xyz/images/image-icon.png",
+			"sizes": "1024x1024",
+			"type": "image/png"
+		}],
+	"name" : "cesarpgasuz",
+	"short_name" : "cesarpgasuz",
+	"description" : "Desarrollador Front-End",
+	"start_url" : "./",
+	"scope" : "./",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"lang" : "es-MX",
+	"background_color" : "#000e16",
+	"theme_color"  : "#000e16"
+}
