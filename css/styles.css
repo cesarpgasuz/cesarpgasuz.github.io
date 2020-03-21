@@ -8,6 +8,7 @@ body{
 	
 }
 
+
 a{
     cursor: url(../images/link.cur), default;
 }
@@ -136,7 +137,47 @@ a{
 	line-height: 30px;
 	color: #292929;
 	font-size: 16px;
+	position: relative;
 }
+.servicios ul li a{
+	cursor: url(../images/sword2.cur), default;
+	outline: none;
+	text-decoration: none;
+	position: absolute;
+	top: 20px;
+}
+
+.servicios ul li a:hover .link{
+	-webkit-animation:1s rebote infinite;
+	-moz-animation:1s rebote infinite;
+}
+@-webkit-keyframes rebote{
+	20%, 50%, 80%{
+		-webkit-transform:translateY(0px);
+		
+	}
+	40%{
+		-webkit-transform:translateY(-15px);
+	}
+	60%{
+		-webkit-transform:translateY(-5px);
+	}
+}
+@-moz-keyframes rebote{
+	20%, 50%, 80%{
+		-moz-transform:translateY(0px);
+	}
+	40%{
+		-moz-transform:translateY(-15px);
+	}
+	60%{
+		-moz-transform:translateY(-5px);
+	}
+}
+
+
+
+
 
 .servicios .f-a{
 	color: #000;
@@ -206,35 +247,52 @@ a{
 	padding:0px 15px 0px 15px;
 	font-weight: 700;
 	font-size: 16px;
+	border: 2px solid transparent;
 }
 .sociales ul li a:link{
 	text-decoration: none;
 	outline: none;
+	
 }
 .sociales ul li a:visited{
 	text-decoration: none;
 	outline: none;
 }
+.sociales ul li a:hover{
+	background: #fff;
+}
 .sociales .twitter a{
 	background: #f40c48;
 	color: #fff;
+}
+.sociales .twitter a:hover{
 	
+	border: 2px solid #f40c48;
+	color: #f40c48;
 }
 .sociales .facebook a{
 	background: #00d8ff;
 	color: #000;
 }
-.sociales .facebook a{
-	background: #00d8ff;
-	color: #000;
+.sociales .facebook a:hover{
+	border: 2px solid #00d8ff;
+	color: #00d8ff;
 }
 .sociales .instagram a{
 	background: #fff900;
 	color: #000;
 }
+.sociales .instagram a:hover{
+	border: 2px solid #e2aa02;
+	color: #e2aa02;
+}
 .sociales .linkedin a{
 	background: #000;
 	color: #fff;
+}
+.sociales .linkedin a:hover{
+	border: 2px solid #000;
+	color: #000;
 }
 
 
@@ -262,6 +320,15 @@ a{
 	color: #fff900;
 	line-height: 30px;
 	font-size: 18px;
+}
+.contacto ul li a:link{
+	text-decoration: none;
+	outline: none;
+	color: #fff900;	
+}
+.contacto ul li a:hover{
+	border-bottom: 2px solid #fff900;
+	cursor: url(../images/34.cur), default;
 }
 .contacto .p-wh{
 	color: #fff;
