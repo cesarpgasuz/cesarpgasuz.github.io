@@ -1,0 +1,18 @@
+.box{
+	transition: ease-in-out 6s;
+	background-position: top;
+	
+}
+.box1{
+	
+	background: url(../images/webs/6.png);
+	background-size: cover;
+}
+.box2{
+	background: url(../images/webs/5.png);
+	background-size: cover;
+}
+.box:hover{
+	background-position: bottom;
+}
+

@@ -353,6 +353,84 @@ a{
 }
 
 
+
+
+/* -- pagina webs */
+.webs h2{
+	font-size: 48px;
+	margin-top: 40px;
+}
+.webs .image{
+	text-align: center;
+}
+.webs .image img{
+	width: 350px;
+}
+
+/* cuerpo de la pagina webs */
+.webs-c{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.webs-c .card{
+	border: none;
+	margin-bottom: 150px;
+}
+.webs-c p:first-child{
+	font-size: 14px;
+	margin-bottom: 100px;
+}
+.webs-img{
+	width: 440px;
+	height: 330px;
+	-webkit-box-shadow: 0px 10px 25px 1px rgba(207,207,207,1);
+	-moz-box-shadow: 0px 10px 25px 1px rgba(207,207,207,1);
+	box-shadow: 0px 10px 25px 1px rgba(207,207,207,1);
+	margin-left: auto;
+	margin-right: auto;
+}
+.webs-c .webs-text .card-body{
+	padding-left: 125px;
+	padding-top: 0;
+}
+.webs-c .webs-text .card-body h5{
+	font-size: 68px;
+	color: #cccccc;
+}
+.webs-c .webs-text .card-body ul li{
+	font-size: 16px;
+	line-height: 30px;
+}
+.webs-c .webs-text .card-body a:link{
+	display: inline-block;
+	margin-top: 25px;
+	padding: 5px 50px;
+	background: #00d8ff;
+	text-decoration: none;
+	outline: none;
+	font-size: 18px;
+	color: #fff;
+	-webkit-box-shadow: 0px 10px 25px 1px rgba(0,216,255,0.45);
+	-moz-box-shadow: 0px 10px 25px 1px rgba(0,216,255,0.45);
+	box-shadow: 0px 10px 25px 1px rgba(0,216,255,0.45);
+}
+.webs-c .webs-text .card-body a:hover{
+	background: #f40c48;
+	-webkit-box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
+-moz-box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
+box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
+}
+.webs-c .webs-text .card-body a:visited{
+	color: #fff;
+}
+
+
+
+
+
+
+
 /* diseñor responsivo */
 .menu-1{
 	display: block !important;
