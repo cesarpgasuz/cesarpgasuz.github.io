@@ -337,6 +337,28 @@ a{
 	display: none;
 }
 
+.contacto .whats{
+	justify-content: center;
+	display: none;
+}
+.contacto .whats a:link{
+	color: #fff;
+	text-decoration: none;
+	background: #00e676;
+	padding: 6px 30px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	text-shadow: 2px 0px 6px rgba(150, 150, 150, 0.5);
+	-webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+	-moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+	box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+}
+
+.contacto .whats a:visited{
+	color: #fff;
+}
 
 /* seccion footer */
 .pie{
@@ -528,7 +550,9 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 	.works img{
 		margin-bottom: 30px;
 	}
-	
+	.works ul li{
+		text-align: center;
+	}
 	
 	/* --- redes sociales -- */
 	.sociales h3{
@@ -538,31 +562,8 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 		display: flex;
 		justify-content: center;
 	}
-}
-
-@media screen and (max-width: 465px){
-	.banner .logo-pri{
-		display: none;
-	}
-	.servicios{
-		padding-left: 10%;
-		padding-right: 10%;
-		padding-top: 100px;
-	}
-	.works .gato{
-		width: 150px;
-	}
-	.works strong{
-		display: none;
-	}
-	.works ul li{
-		text-align: center;
-	}
-	.works .lista{
-		padding-left: 5%;
-		padding-right: 5%;
-		
-	}
+	
+	/* -- contact0 -- */
 	.contacto h3{
 		display: none;
 	}
@@ -579,11 +580,66 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 	.contacto span, .contacto p{
 		display: none;
 	}
+	.contacto .whats{
+		display: flex;
+	}
 	
+	
+}
+
+@media screen and (max-width: 575px){
+	.servicios .servicios-tarjetas{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
+
+@media screen and (max-width: 490px){
+	.works strong{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 479px){
 	.sociales ul li{
 		margin: 20px 20px 20px 20px;
 	}
 }
+
+
+@media screen and (max-width: 465px){
+	.banner .logo-pri{
+		display: none;
+	}
+	.servicios{
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 100px;
+	}
+	.servicios .servicios-tarjetas{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.works .gato{
+		width: 150px;
+	}
+	
+	.works .lista{
+		padding-left: 5%;
+		padding-right: 5%;
+		
+	}
+	
+	
+}
+
+@media screen and (max-width: 384px){
+	.works h3{
+		font-size: 20px;
+	}
+}
+
+
 
 @media screen and (min-width: 466px){
 	br{
