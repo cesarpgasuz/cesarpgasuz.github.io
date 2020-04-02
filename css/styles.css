@@ -377,15 +377,15 @@ a{
 
 
 
-/* -- pagina webs */
-.webs h2{
+/* -- paginas estilos */
+.pages h2{
 	font-size: 48px;
 	margin-top: 40px;
 }
-.webs .image{
+.pages .image{
 	text-align: center;
 }
-.webs .image img{
+.pages .image img{
 	width: 350px;
 }
 
@@ -440,8 +440,8 @@ a{
 .webs-c .webs-text .card-body a:hover{
 	background: #f40c48;
 	-webkit-box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
--moz-box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
-box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
+	-moz-box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
+	box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 }
 .webs-c .webs-text .card-body a:visited{
 	color: #fff;
@@ -453,7 +453,7 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 
 
 
-/* diseñor responsivo */
+/* diseño responsivo */
 .menu-1{
 	display: block !important;
 }
@@ -466,6 +466,14 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 	.banner h2{
 		font-size: 26px;
 	}
+	
+	/* titulo paginas webs, proyects , sobre mi */
+	.pages h2{
+		font-size: 48px;
+	}
+	
+	
+	
 }
 
 
@@ -523,6 +531,19 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 		padding-top: 50px;
 	}
 	
+	
+	/* pages */
+	.pages h2{
+		font-size: 48px;
+		margin-top: 10px;
+	}
+	
+	/* cuerpo pagina webs */
+	.webs-img {
+    	width: 300px;
+		height: 380px;
+	}
+	
 }
 
 
@@ -541,6 +562,40 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 		width: 220px;
 		margin-top: 50px;
 	}
+	
+	/* titulo paginas webs, proyects , sobre mi */
+	
+	/* pages */
+	.pages h2{
+		font-size: 36px;
+		margin-top: 10px;
+	}
+	.pages .image img{
+		width: 300px;
+		margin-top: 40px;
+	}
+	.webs-c p:first-child {
+		text-align: center;
+	}
+	.webs-c .webs-text .card-body {
+		padding-left: 0px;
+		
+	}
+	.webs-c .webs-text .card-body h5 {
+		margin-top: 25px;
+
+	}
+	.webs-c .webs-text .card-body ul li {
+		font-size: 14px;
+	}
+	.webs-img{
+		width: 100%;
+		height: 300px;
+	}
+	.webs-c .card .box{
+		margin-left: 0px;
+	}
+	
 	
 	/* --- trabajos -- */
 	
@@ -592,17 +647,39 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 		padding-left: 20%;
 		padding-right: 20%;
 	}
+	.pages h2 {
+		margin-top: 0px;
+	}
+	.pages .image img{
+		width: 200px;
+	}
+	.webs-c .card .card-body{
+		padding-right: 0px;
+	}
+	.webs-c .card .p-p{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 41.5%;
+	}
 }
 
 @media screen and (max-width: 490px){
 	.works strong{
 		display: none;
 	}
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 40.2%;
+	}
 }
 
 @media screen and (max-width: 479px){
 	.sociales ul li{
 		margin: 20px 20px 20px 20px;
+	}
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 40%;
 	}
 }
 
@@ -629,17 +706,72 @@ box-shadow: 0px 10px 25px 1px rgba(244,12,72,0.45);
 		padding-right: 5%;
 		
 	}
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 39.5%;
+	}
 	
 	
+}
+@media screen and (max-width: 440px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 39%;
+	}
+	.webs-img{
+		height: 200px;
+	}
+	
+}
+@media screen and (max-width: 400px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 38%;
+	}
+
 }
 
 @media screen and (max-width: 384px){
 	.works h3{
 		font-size: 20px;
 	}
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 37.5%;
+	}
 }
 
-
+@media screen and (max-width: 364px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 36.5%;
+	}
+}
+@media screen and (max-width: 344px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 35.5%;
+	}
+}
+@media screen and (max-width: 324px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 34.5%;
+	}
+}
+@media screen and (max-width: 304px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 33.5%;
+	}
+}
+@media screen and (max-width: 284px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 32.5%;
+	}
+}
+@media screen and (max-width: 264px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 31.5%;
+	}
+}
+@media screen and (max-width: 244px){
+	.webs-c .webs-text .card-body a:link{
+		padding: 5px 30.5%;
+	}
+}
 
 @media screen and (min-width: 466px){
 	br{
