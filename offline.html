@@ -1,13 +1,45 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+
+<title>offline / cesarpgasuz</title>
+<link rel="shortcut icon" href="images/icon.png">
+
+<!-- fuente google space mono -->
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet">
+
+<!-- estilos css -->
+<link href="css/styles.css" rel="stylesheet">
+
+<!-- estilos bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--fonts-->
+<link href="css/style-fonts.css" rel="stylesheet">
+	
+<!-- PWA-->
+<meta name="theme-color" content="#000e16"> 
+<link rel="manifest" href="./manifest.json">
+
 </head>
 
 <body>
 	
-	ESTAS SIN CONEXION
+	<section class="no-conection">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="icon-no-wifi"></span>
+					<p>Oops! creo que no tienes Internet, verifica tu conexión.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+		 
+		  
+    
 	<script>
 	
 	// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
@@ -18,11 +50,12 @@
 
 // Add this below content to your HTML page inside a <script type="module"> tag, or add the js file to your page at the very top to register service worker
 
-import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+	import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
-const el = document.createElement('pwa-update');
-document.body.appendChild(el);
+	const el = document.createElement('pwa-update');
+	document.body.appendChild(el);
 	</script>
+
+
 </body>
-	
 </html>
