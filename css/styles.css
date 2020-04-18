@@ -448,31 +448,6 @@ a{
 }
 
 
-.no-conection{
-	background: #000e16;
-	width: 100%;
-	height: 100vh;
-	text-align: center;
-	color: white;
-	align-items: center;
-	display: flex;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.no-conection span{
-	font-size: 200px;
-	background: linear-gradient(45deg, #f40c48, #00d8ff );
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-	
-}
-.no-conection p{
-	color: #bababa;
-	font-size: 18px;
-	margin-top: 5%;
-	
-}
-
 
 
 
