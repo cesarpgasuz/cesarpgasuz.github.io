@@ -1,256 +1,292 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no" />
 
-<title>cesarpgasuz</title>
-<link rel="shortcut icon" href="images/icon.png">
+    <title>cesarpgasuz</title>
+    <link rel="shortcut icon" href="images/icon.png" />
 
-<!-- fuente google space mono -->
-<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet">
+    <!-- fuente google space mono -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet" />
 
-<!-- estilos css -->
-<link href="css/styles.css" rel="stylesheet">
+    <!-- estilos css -->
+    <link href="css/styles.css" rel="stylesheet" />
 
-<!-- estilos bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- estilos bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-<!-- PWA-->
-<meta name="theme-color" content="#000e16"> 
-<link rel="manifest" href="./manifest.json">
+    <!-- PWA-->
+    <meta name="theme-color" content="#000e16" />
+    <link rel="manifest" href="./manifest.json" />
 
-<!-- google analitics --->
+    <!-- google analitics --->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168182830-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168182830-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-168182830-1');
-</script>
+      gtag("config", "UA-168182830-1");
+    </script>
+	  
+	 <!-- notificaciones push -->
+	<script charset="UTF-8" src="//web.webpushs.com/js/push/ef829c5c097d7355f3230f84eb2f89ca_1.js" async></script>
+	  
+	  
+  </head>
 
+  <body data-spy="scroll" data-target="#main-navbar">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top menu-1" id="main-navbar">
+      <div class="container espaciado">
+        <a href="#" class="navbar-brand logo-mini"><img src="images/logomini.png" class="img-fluid logo-mini-im" width="40px" /><span>cesarpgasuz</span></a>
+        <button
+          class="navbar-toggler hamburguesa"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarprincipal"
+          aria-controls="navbarprincipal"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarprincipal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sobre_mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a href="#mis_trabajos">Mis Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-</head>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top menu-2">
+      <div class="container justify-content-center">
+        <a href="#" class="navbar-brand logo-mini"><img src="images/logomini.png" class="img-fluid logo-mini-im" width="40px" /><span>cesarpgasuz</span></a>
+      </div>
+    </nav>
 
-<body data-spy="scroll" data-target="#main-navbar">
+    <button class="btn btn-danger"></button>
 
-	
-	<nav class="navbar navbar-dark navbar-expand-lg fixed-top menu-1" id="main-navbar">
-	  	<div class="container espaciado">
-		  <a href="#" class="navbar-brand logo-mini"><img src="images/logomini.png" class="img-fluid logo-mini-im" width="40px"><span>cesarpgasuz</span></a>
-		  	<button class="navbar-toggler hamburguesa" type="button" data-toggle="collapse" data-target="#navbarprincipal" aria-controls="navbarprincipal" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-			<div class="collapse navbar-collapse" id="navbarprincipal">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="#inicio">Inicio</a>
-					</li>
-					<li class="nav-item">
-						<a href="#sobre_mi">Sobre mi</a>
-					</li>
-					<li class="nav-item">
-						<a href="#mis_trabajos">Mis Trabajos</a>
-					</li>
-					<li class="nav-item">
-						<a href="#contacto">Contacto</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	  </nav>
-		
-	<nav class="navbar navbar-dark navbar-expand-lg fixed-top menu-2">
-	  	<div class="container justify-content-center">
-		  <a href="#" class="navbar-brand logo-mini"><img src="images/logomini.png" class="img-fluid logo-mini-im" width="40px"><span>cesarpgasuz</span></a>
-		</div>
-	  </nav>
+    <section class="banner" id="inicio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <h1>&#35;cesarpgasuz</h1>
+            <h2>
+              <span class="mq-a">&#60;</span>Desarrollador<span class="mq-a">&#47;</span> <span class="mq-a menor-q">&#62;</span> <br /><br /><span class="ll-r">&#123;</span> Front-End
+              <span class="ll-r">&#125;</span>
+            </h2>
+            <div class="media">
+              <img src="images/foto.png" class="align-self-start mr-3 perfil" alt="foto-perfil" />
+              <div class="media-body">
+                <p>
+                  Hola mi nombre es cesar pablo garcia suarez, tengo 27 años y mi <strong class="f-a">pasión</strong> es el desarrollo y diseño de paginas web, actualmente me enfoco al
+                  <strong class="f-r">Front-End.</strong> Utilizo diferentes tecnologias para darles un aspecto
+                  <strong class="f-az">increible.</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-4 logo">
+            <img src="images/logo.png" alt="logo" class="img-fluid logo-pri" />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="servicios" id="sobre_mi">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 servicios-tarjetas">
+            <h3>&#35;Servicios</h3>
+            <ul class="list-unstyled">
+              <li>&#46;Diseño Web</li>
+              <li>&#46;Maquetado Web</li>
+              <li>&#46;Diseño Responsivo</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 servicios-tarjetas">
+            <h3>&#35;Habilidades</h3>
+            <ul class="list-unstyled">
+              <li>&#46;HTML5</li>
+              <li>&#46;CSS3</li>
+              <li>&#46;Bootstrap</li>
+              <li>&#46;Wordpress</li>
+              <li>&#46;Photoshop</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 servicios-tarjetas">
+            <h3>&#35;Sobre_mi</h3>
+            <ul class="list-unstyled">
+              <li>Lineas de Codigo &#61; <strong class="f-a">1551052</strong></li>
+              <li>Tazas de Cafe &#61; <strong class="f-r">120</strong></li>
+              <li>Horas Codificando &#61; <strong class="f-az">187</strong></li>
+              <li>
+                Pincha sobre link para conocer más sobre mi.
+                <a href="personal.html"><img src="images/linkz.png" class="img-fluid link" width="50" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 servicios-tarjetas img-programador" style="text-align: center;">
+            <img src="images/programador.gif" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="works" id="mis_trabajos">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h3>&#35;Mis_Trabajos_Proyectos</h3>
+          </div>
+          <div class="col-lg-4 col-md-3 col-sm-12">
+            <center>
+              <img src="images/github-move.gif" class="img-fluid gato" />
+            </center>
+          </div>
+          <div class="col-lg-8 col-md-9 col-sm-12 col-12 lista">
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                  <span class="sub-title-proyects">&#47;&#42; Paginas web que he desarrollado &#42;&#47;</span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong class="ll-r"><span class="mq-a">&#60;</span>web<span class="mq-a">&#62;</span></strong
+                  ><a href="webs.html">www.cesarpgasuz.xyz/webs</a
+                  ><strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>web<span class="mq-a">&#62;</span></strong>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span class="sub-title-proyects">&#47;&#42; Proyectos que actualmente estoy desarrollando &#42;&#47;</span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong class="ll-r"><span class="mq-a">&#60;</span>proyect<span class="mq-a">&#62;</span></strong
+                  ><a href="proyects.html">www.cesarpgasuz.xyz/proyects</a
+                  ><strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>proyect<span class="mq-a">&#62;</span></strong>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span class="sub-title-proyects">&#47;&#42; Red Social donde muestro mis Diseños Web &#42;&#47;</span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong class="ll-r"><span class="mq-a">&#60;</span>design<span class="mq-a">&#62;</span></strong
+                  ><a href="https://www.behance.net/cesarpgasuz" target="_blank">www.behance.net/cesarpgasuz</a
+                  ><strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>design<span class="mq-a">&#62;</span></strong>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="sociales">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>&#35;Redes_Sociales</h3>
+            <ul class="list-unstyled nav">
+              <li class="nav-item twitter">
+                <a href="https://twitter.com/cesarpgasuz" target="_blank">Twitter</a>
+              </li>
+              <li class="nav-item facebook">
+                <a href="https://www.facebook.com/cesarpgasuz" target="_blank">Facebook</a>
+              </li>
+              <li class="nav-item instagram">
+                <a href="https://www.instagram.com/cesarpgasuz_" target="_blank">Instagram</a>
+              </li>
+              <li class="nav-item linkedin">
+                <a href="https://www.linkedin.com/in/cesarpgasuz" target="_blank">Linkedin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="banner" id="inicio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 col-md-8">
-					<h1>&#35;cesarpgasuz</h1>
-					<h2><span class="mq-a">&#60;</span>Desarrollador<span class="mq-a">&#47;</span> <span class="mq-a menor-q">&#62;</span> <br><br><span class="ll-r">&#123;</span> Front-End <span class="ll-r">&#125;</span></h2>
-					<div class="media">
-					<img src="images/foto.png" class="align-self-start mr-3 perfil" alt="foto-perfil">
-					<div class="media-body">
-						<p>Hola mi nombre es cesar pablo garcia suarez, tengo 27 años y mi <strong class="f-a">pasión</strong> es el desarrollo y diseño de paginas web, actualmente me enfoco al <strong class="f-r">Front-End.</strong> Utilizo diferentes tecnologias para darles un aspecto <strong class="f-az">increible.</strong></p>
-					</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-4 logo">
-					<img src="images/logo.png" alt="logo" class="img-fluid logo-pri">
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="contacto" id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <h3>&#35;Contacto &#123;</h3>
+            <p class="contacto-sec">&#35;Contacto</p>
+            <ul class="list-unstyled">
+              <li>
+                <span class="mq-a">email:</span>
+                <a href="mailto:cesarpgasuz@gmail.com">cesarpgasuz@gmail.com</a>
+                <span class="p-wh">&#59;</span>
+              </li>
+              <li>
+                <span class="mq-a">telefono:</span>
+                <a href="tel:+524191389032">+52 4191389032</a>
+                <span class="p-wh">&#59;</span>
+              </li>
+            </ul>
+            <div class="whats">
+              <a href="https://api.whatsapp.com/send?phone=524191389032&text=Hola%20que%20tal">Enviame un Whats</a>
+            </div>
 
-	<section class="servicios" id="sobre_mi">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-6 servicios-tarjetas">
-					<h3>&#35;Servicios</h3>
-					<ul class="list-unstyled">
-						<li>&#46;Diseño Web</li>
-						<li>&#46;Maquetado Web</li>
-						<li>&#46;Diseño Responsivo</li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-6 servicios-tarjetas">
-					<h3>&#35;Habilidades</h3>
-					<ul class="list-unstyled">
-						<li>&#46;HTML5</li>
-						<li>&#46;CSS3</li>
-						<li>&#46;Bootstrap</li>
-						<li>&#46;Wordpress</li>
-						<li>&#46;Photoshop</li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-6 servicios-tarjetas">
-					<h3>&#35;Sobre_mi</h3>
-					<ul class="list-unstyled">
-						<li>Lineas de Codigo &#61; <strong class="f-a">1551052</strong></li>
-						<li>Tazas de Cafe &#61; <strong class="f-r">120</strong></li>
-						<li>Horas Codificando &#61; <strong class="f-az">187</strong></li>
-						<li>Pincha sobre link para conocer más sobre mi. <a href="personal.html"><img src="images/linkz.png" class="img-fluid link" width="50"></a></li>
-					</ul>
-				</div>
-				<div class="col-md-6 servicios-tarjetas img-programador" style="text-align: center;">
-					<img src="images/programador.gif" class="img-fluid">
-				</div>
-			</div>
-		</div>
-	</section>
+            <p>&#125;</p>
+          </div>
+          <div class="col-lg-5 col-md-4" style="text-align: center;">
+            <img src="images/source.gif" alt="" srcset="" class="img-fluid" width="240px" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="works" id="mis_trabajos">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<h3>&#35;Mis_Trabajos_Proyectos</h3>
-				</div>
-				<div class="col-lg-4 col-md-3 col-sm-12">
-					<center>
-						<img src="images/github-move.gif" class="img-fluid gato">
-					</center>
-					
-				</div>
-				<div class="col-lg-8 col-md-9 col-sm-12 col-12  lista">
-					<ul class="list-unstyled">
-						<li><p><span class="sub-title-proyects">&#47;&#42; Paginas web que he desarrollado &#42;&#47;</span></p></li>
-						<li>
-							<p><strong class="ll-r"><span class="mq-a">&#60;</span>web<span class="mq-a">&#62;</span></strong><a href="webs.html">www.cesarpgasuz.xyz/webs</a><strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>web<span class="mq-a">&#62;</span></strong></p>	
-						</li>
-						<li><p><span class="sub-title-proyects">&#47;&#42; Proyectos que actualmente estoy desarrollando &#42;&#47;</span></p></li>
-						<li>
-							<p><strong class="ll-r"><span class="mq-a">&#60;</span>proyect<span class="mq-a">&#62;</span></strong><a href="proyects.html">www.cesarpgasuz.xyz/proyects</a><strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>proyect<span class="mq-a">&#62;</span></strong></p>	
-						</li>
-						<li><p><span class="sub-title-proyects">&#47;&#42; Red Social donde muestro mis Diseños Web &#42;&#47;</span></p></li>
-						<li>
-							<p><strong class="ll-r"><span class="mq-a">&#60;</span>design<span class="mq-a">&#62;</span></strong><a href="https://www.behance.net/cesarpgasuz" target="_blank">www.behance.net/cesarpgasuz</a><strong class="ll-r"><span class="mq-a">&#60;</span> <span class="mq-a diagonal">&#47;</span>design<span class="mq-a">&#62;</span></strong></p>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+    <footer class="pie">
+      <div class="container">
+        <p>© 2020 - Web diseñada y codificada por <span>Cesar Pablo</span></p>
+      </div>
+    </footer>
 
-	<section class="sociales">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>&#35;Redes_Sociales</h3>
-					<ul class="list-unstyled nav">
-						<li class="nav-item twitter"><a href="https://twitter.com/cesarpgasuz" target="_blank">Twitter</a></li>
-						<li class="nav-item facebook"><a href="https://www.facebook.com/cesarpgasuz" target="_blank">Facebook</a></li>
-						<li class="nav-item instagram"><a href="https://www.instagram.com/cesarpgasuz_" target="_blank">Instagram</a></li>
-						<li class="nav-item linkedin"><a href="https://www.linkedin.com/in/cesarpgasuz" target="_blank">Linkedin</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="contacto" id="contacto">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 col-md-8">
-					<h3>&#35;Contacto &#123;</h3>
-					<p class="contacto-sec">&#35;Contacto</p>
-					<ul class="list-unstyled">
-						<li><span class="mq-a">email:</span> <a href="mailto:cesarpgasuz@gmail.com">cesarpgasuz@gmail.com</a> <span class="p-wh">&#59;</span></li>
-						<li><span class="mq-a">telefono:</span> <a href="tel:+524191389032">+52 4191389032</a> <span class="p-wh">&#59;</span></li>
-					</ul>
-					<div class="whats">
-						<a href="https://api.whatsapp.com/send?phone=524191389032&text=Hola%20que%20tal">Enviame un Whats</a>
-					</div>
-					
-					<p>&#125;</p>
-				</div>
-				<div class="col-lg-5 col-md-4" style="text-align: center;">
-					<img src="images/source.gif" alt="" srcset="" class="img-fluid" width="240px">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="pie">
-		<div class="container">
-			<p>© 2020 - Web diseñada y codificada por <span>Cesar Pablo</span></p>
-		</div>
-	</footer>
-
-	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/app.js"></script>
-	  
-	  
-	  
-	<script>
-        $(document).ready(function(){
-            $(window).scroll(function() {
-                var scroll = $(window).scrollTop();
-                if(scroll < 200){
-					$('.espaciado').css({"margin-top": "35px"});
-					$('.espaciado').css({"transition":" all 0.2s"});
-					$('.logo-mini span').css({"color":"transparent"});
-					$('.logo-mini-im').css({"display":" none"});
+    <script src="js/app.js"></script>
 
-				
-					
-							
-					
-                }else{
-                    $('.espaciado').css({"margin-top": "0px" });
-					$('.espaciado').css({"transition":" all 0.2s"});
-					$('.logo-mini span').css({"color":"#fff"});
-					$('.logo-mini-im').css({"display":" inline-block"});
-				
-					
-					
-					
-					
-					
-                }      
-            })
-        })
-		  
-		 
-		  
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll < 200) {
+            $(".espaciado").css({ "margin-top": "35px" });
+            $(".espaciado").css({ transition: " all 0.2s" });
+            $(".logo-mini span").css({ color: "transparent" });
+            $(".logo-mini-im").css({ display: " none" });
+          } else {
+            $(".espaciado").css({ "margin-top": "0px" });
+            $(".espaciado").css({ transition: " all 0.2s" });
+            $(".logo-mini span").css({ color: "#fff" });
+            $(".logo-mini-im").css({ display: " inline-block" });
+          }
+        });
+      });
     </script>
-		 
-		  
-    
-	  
-
-
-</body>
+  </body>
 </html>
