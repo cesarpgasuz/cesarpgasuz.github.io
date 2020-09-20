@@ -28,16 +28,15 @@
 <file name="source.gif" server="ftp.cesarpgasuz.xyz//" local="132245647184046745" remote="132259364400000000" Dst="1" />
 <file name="wall-error.jpg" server="ftp.cesarpgasuz.xyz//" local="131762368775545279" remote="132259364400000000" Dst="1" />
 <file name="programador.gif" server="ftp.cesarpgasuz.xyz//" local="132248137835959923" remote="132259443000000000" Dst="1" />
-<file name="icon.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132248305055881083" remote="132248305050000000" Dst="1" />
-<file name="logomini.png" server="C:/xampp/htdocs/cesarpgasuz/" local="131933509663983792" remote="131933509660000000" Dst="1" />
+<file name="icon.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132248305055881083" remote="132248269050000000" Dst="2" />
+<file name="logomini.png" server="C:/xampp/htdocs/cesarpgasuz/" local="131933509663983792" remote="131933473660000000" Dst="2" />
 <file name="foto.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132246390166817710" remote="132246390160000000" Dst="1" />
 <file name="logo.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132246390646148822" remote="132246390640000000" Dst="1" />
 <file name="programador.gif" server="C:/xampp/htdocs/cesarpgasuz/" local="132248137835959923" remote="132248137830000000" Dst="1" />
 <file name="github-move.gif" server="C:/xampp/htdocs/cesarpgasuz/" local="132245452097497643" remote="132245452090000000" Dst="1" />
-<file name="source.gif" server="C:/xampp/htdocs/cesarpgasuz/" local="132245647184046745" remote="132245647180000000" Dst="1" />
+<file name="source.gif" server="C:/xampp/htdocs/cesarpgasuz/" local="132245647184046745" remote="132245611180000000" Dst="2" />
 <file name="34.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="132290683675705171" remote="132290647670000000" Dst="2" />
 <file name="Bread.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="132290523212951974" remote="132290487210000000" Dst="2" />
-<file name="computer.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132294706154113461" remote="132294670150000000" Dst="2" />
 <file name="cuadro.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132246565759271495" remote="132246529750000000" Dst="2" />
 <file name="cur116.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="132290604592988378" remote="132290568590000000" Dst="2" />
 <file name="cur7.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="132290613801739362" remote="132290577800000000" Dst="2" />
@@ -50,4 +49,6 @@
 <file name="sword.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="132291514140315113" remote="132291478140000000" Dst="2" />
 <file name="sword2.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="132291513936742591" remote="132291477930000000" Dst="2" />
 <file name="work.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132294654463507596" remote="132294618460000000" Dst="2" />
+<file name="pointer.cur" server="C:/xampp/htdocs/cesarpgasuz/" local="131770126253149683" remote="131770126250000000" Dst="2" />
+<file name="com.png" server="C:/xampp/htdocs/cesarpgasuz/" local="132358843375588304" remote="132358843370000000" Dst="2" />
 </dwsync>
