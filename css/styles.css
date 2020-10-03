@@ -45,23 +45,23 @@ a{
 
 .onesignal-customlink-subscribe.button.medium {
     
-    padding: 12px 18px;
+    padding: 12px 18px !important;
 }
 
 .onesignal-customlink-subscribe.button {
     
-    border-radius: 50px;
+    border-radius: 50px !important;
    
- 
-    -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-    -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-    box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+ 	background: green !important;
+    -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
+    -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
+    box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
 }
 
 .onesignal-customlink-subscribe.button:hover{
-	  -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-    -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-    box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+	  -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
+    -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
+    box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
 }
 
 /* estilos menu */
