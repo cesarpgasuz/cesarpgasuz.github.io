@@ -43,13 +43,12 @@ a{
 
 /*  boton suscripcion */
 
-.onesignal-customlink-subscribe.button.medium {
+.state-unsubscribed {
     
     padding: 12px 18px !important;
-}
 
-.onesignal-customlink-subscribe.button {
-    
+
+ 
     border-radius: 50px !important;
    
  	background: green !important;
@@ -58,10 +57,14 @@ a{
     box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
 }
 
-.onesignal-customlink-subscribe.button:hover{
+.state-unsubscribed:hover{
 	  -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
     -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
     box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
+}
+
+.state-subscribed{
+	background: red !important;
 }
 
 /* estilos menu */
