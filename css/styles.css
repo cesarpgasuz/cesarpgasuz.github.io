@@ -44,28 +44,40 @@ a{
 /*  boton suscripcion */
 
 .state-unsubscribed {
-    
-    padding: 12px 18px !important;
-
-
- 
+	font-family: 'Space Mono', monospace !important;
+    background: #00e676 !important;
+	padding: 12px 18px !important;
+	text-transform: capitalize !important;
     border-radius: 50px !important;
-   
- 	background: green !important;
     -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
     -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
     box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
 }
 
 .state-unsubscribed:hover{
-	  -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
+	-webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
     -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
     box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6) !important;
 }
 
 .state-subscribed{
-	background: red !important;
+	font-family: 'Space Mono', monospace !important;
+	background: #f40c48 !important;
+	padding: 12px 18px !important;
+	text-transform: capitalize !important;
+    border-radius: 50px !important;
+	-webkit-box-shadow: 0px 15px 51px 1px rgba(244,12,72,0.6) !important;
+	-moz-box-shadow: 0px 15px 51px 1px rgba(244,12,72,0.6) !important;
+	box-shadow: 0px 15px 51px 1px rgba(244,12,72,0.6) !important;
 }
+
+.state-subscribed:hover{
+	-webkit-box-shadow: 0px 15px 51px 1px rgba(244,12,72,0.6) !important;
+	-moz-box-shadow: 0px 15px 51px 1px rgba(244,12,72,0.6) !important;
+	box-shadow: 0px 15px 51px 1px rgba(244,12,72,0.6) !important;
+
+}
+
 
 /* estilos menu */
 .navbar{
