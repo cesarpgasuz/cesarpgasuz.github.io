@@ -41,6 +41,29 @@ a{
 }
 
 
+/*  boton suscripcion */
+
+.onesignal-customlink-subscribe.button.medium {
+    
+    padding: 12px 18px;
+}
+
+.onesignal-customlink-subscribe.button {
+    
+    border-radius: 50px;
+   
+ 
+    -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+    -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+    box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+}
+
+.onesignal-customlink-subscribe.button:hover{
+	  -webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+    -moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+    box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
+}
+
 /* estilos menu */
 .navbar{
 	background: #000e16;
