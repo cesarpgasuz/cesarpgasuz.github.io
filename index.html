@@ -35,7 +35,15 @@
     </script>
 	  
 	 <!-- notificaciones push -->
-	<script charset="UTF-8" src="//web.webpushs.com/js/push/ef829c5c097d7355f3230f84eb2f89ca_1.js" async></script>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "47b13059-6ef7-46f2-85c7-817fba103b27",
+    });
+  });
+</script>
 	  
 	  
   </head>
@@ -228,6 +236,10 @@
       </div>
     </section>
 
+	  
+	  <div class='onesignal-customlink-container'></div>
+	  
+	  
     <section class="contacto" id="contacto">
       <div class="container">
         <div class="row">
