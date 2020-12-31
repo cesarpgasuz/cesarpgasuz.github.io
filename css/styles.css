@@ -381,6 +381,29 @@ a{
 	display: none;
 }
 
+.contacto .sms{
+	justify-content: center;
+	display: none;
+}
+.contacto .sms a:link{
+	color: #fff;
+	text-decoration: none;
+	background: #e7a61a;
+	padding: 6px 30px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	text-shadow: 2px 0px 6px rgba(150, 150, 150, 0.5);
+	-webkit-box-shadow: 0px 15px 51px 1px rgba(235,112,5,0.6);
+	-moz-box-shadow: 0px 15px 51px 1px rgba(235,112,5,0.6);
+	box-shadow: 0px 15px 51px 1px rgba(235,112,5,0.6);
+	
+}
+.contacto .sms a:visited{
+	color: #fff;
+}
+
 .contacto .whats{
 	justify-content: center;
 	display: none;
@@ -393,12 +416,14 @@ a{
 	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 16px;
+	margin-top: 36px;
 	text-shadow: 2px 0px 6px rgba(150, 150, 150, 0.5);
 	-webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
 	-moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
 	box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
 }
+
+
 
 .contacto .whats a:visited{
 	color: #fff;
@@ -703,13 +728,12 @@ a{
 	.contacto span, .contacto p{
 		display: none;
 	}
-	.contacto .whats{
-		display: flex;
-	}
-	
+	.contacto .sms,
+	.contacto .whats,
 	.contacto .tele{
 		display: flex;
 	}
+	
 	
 	
 	/* pagina offline */
