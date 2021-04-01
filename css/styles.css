@@ -347,8 +347,8 @@ a{
 .contacto{
 	width: 100%;
 	background: #000e16;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 70px;
+	padding-bottom: 30px;
 }
 .contacto img{
 	margin-top: 70px;
@@ -456,13 +456,16 @@ a{
 
 /* seccion footer */
 .pie{
-	padding-bottom: 35px;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
 	background: #000e16;
 }
 .pie p{
 	font-size: 16px;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 0px;
 }
 .pie p span{
 	color: #f40c48;
@@ -543,6 +546,50 @@ a{
 
 
 
+
+/* pagina links */
+.page-links{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.page-links .cont{
+	text-align: center;
+}
+.page-links .cont img{
+	width: 120px;
+}
+
+.page-links .cont p{
+	font-size: 24px;
+	margin: 25px 0px;
+}
+.page-links .cont a:link{
+	text-decoration: none;
+	
+}
+.page-links .cont a:hover .tarjet-link{
+	background: #f40c48;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 20px 1px rgba(244,12,72,0.5);
+	-moz-box-shadow: 0px 0px 20px 1px rgba(244,12,72,0.5);
+	box-shadow: 0px 0px 20px 1px rgba(244,12,72,0.5);
+}
+.page-links .cont .tarjet-link{
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 20px 1px rgba(222,222,222,0.5);
+	-moz-box-shadow: 0px 0px 20px 1px rgba(222,222,222,0.5);
+	box-shadow: 0px 0px 20px 1px rgba(222,222,222,0.5);
+	border-radius: 5px;
+	margin-bottom: 35px;
+	padding: 20px 15px;
+	color: #191919;
+}
+.page-links .cont .tarjet-link p{
+	font-size: 16px;
+	margin: 0;
+}
 
 
 
