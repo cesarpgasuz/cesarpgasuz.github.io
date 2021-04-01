@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+    
+    <link rel="shortcut icon" href="./images/icon.png" />
+	<title>links / cesarpgasuz</title>
+	<meta name="description" content="Desarrollador web 👨‍💻">
+    <!-- fuente google space mono -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet" />
+
+    <!-- estilos css -->
+    <link href="./css/styles.css" rel="stylesheet" />
+
+    <!-- estilos bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- PWA-->
+    <meta name="theme-color" content="#000e16" />
+    <link rel="manifest" href="./manifest.json" />
+	  
+	  
+	<!-- meta tags redes sociales -->
+	
+	
+	<!-- Twitter Card data -->
+
+		<meta name="twitter:card" content="summary">
+	  
+		<meta name="twitter:title" content="cesarpgasuz">
+		
+	 	<meta name="twitter:description" content="Desarrollador web 👨‍💻">
+	    
+	  	<meta name="twitter:site" content="@cesarpgasuz">
+
+		<meta name="twitter:creator" content="@cesarpgasuz">
+
+		<meta name="twitter:image:src" content="https://cesarpgasuz.xyz/images/cover_twitter.jpg">
+	  
+	  
+	 <!-- Open Graph data -->
+
+	  	<meta property="og:type" content="website">
+	  
+		<meta property="og:title" content="cesarpgasuz">
+	  
+		<meta property="og:description" content="Desarrollador web 👨‍💻">
+	  
+		<meta property="og:url" content="https://cesarpgasuz.github.io/">
+
+		<meta property="og:image" content="https://cesarpgasuz..xyz/images/cover_facebook.jpg">
+
+		
+
+	  
+	 
+
+    <!-- google analitics --->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168182830-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-168182830-1");
+    </script>
+	  
+	 <!-- notificaciones push -->
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "5418fac9-ef83-45ee-ae51-46d2b047f976",
+    });
+  });
+</script>
+	  
+	  
+  </head>
+
+  <body data-spy="scroll" data-target="#main-navbar">
+    
+
+
+    <h1>Links en construccion</h1>
+
+	<section style="padding-top: 50px; padding-bottom: 50px; background: #021520; text-align: center;">
+	  <div class="container">
+		<div class="row align-content-center">
+			<div class="col-lg-12">
+				<div class='onesignal-customlink-container'></div>
+			</div>  
+		</div>
+	  </div>
+	</section>	  
+	  
+	  
+	  
+    <section class="contacto" id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-8">
+            <h3>&#35;Contacto &#123;</h3>
+            <p class="contacto-sec">&#35;Contacto</p>
+            <ul class="list-unstyled">
+              <li>
+                <span class="mq-a">email:</span>
+                <a href="mailto:cesarpgasuz@gmail.com">cesarpgasuz@gmail.com</a>
+                <span class="p-wh">&#59;</span>
+              </li>
+              <li>
+                <span class="mq-a">telefono:</span>
+                <a href="tel:+524191389032">+52 4191389032</a>
+                <span class="p-wh">&#59;</span>
+              </li>
+            </ul>
+			  
+			  <div class="sms">
+			  	<a href="sms:+524191389032?body=Hola que tal">Enviame un SMS</a>
+			  </div>
+            <div class="whats">
+              <a href="https://api.whatsapp.com/send?phone=524191389032&text=Hola%20que%20tal">Enviame un Whats</a>
+            </div>
+			<div class="tele">
+              <a href="https://t.me/cesarpgasuz">Enviame un Telegram</a>
+            </div>
+
+            <p>&#125;</p>
+          </div>
+          <div class="col-lg-5 col-md-4" style="text-align: center;">
+            <img src="images/source.gif" alt="" srcset="" class="img-fluid" width="240px" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pie">
+      <div class="container">
+        <p>© 2020 - Web diseñada y codificada por <span>Cesar Pablo</span></p>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll < 200) {
+            $(".espaciado").css({ "margin-top": "35px" });
+            $(".espaciado").css({ transition: " all 0.2s" });
+            $(".logo-mini span").css({ color: "transparent" });
+            $(".logo-mini-im").css({ display: " none" });
+          } else {
+            $(".espaciado").css({ "margin-top": "0px" });
+            $(".espaciado").css({ transition: " all 0.2s" });
+            $(".logo-mini span").css({ color: "#fff" });
+            $(".logo-mini-im").css({ display: " inline-block" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
