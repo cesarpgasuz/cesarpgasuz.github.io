@@ -2,7 +2,6 @@
 	transition: ease-in-out 6s;
 	background-position: top;
 	margin-left: 15px;
-	
 }
 .box1{
 	
@@ -19,6 +18,31 @@
 }
 .box4{
 	background: url(../images/webs/diagonal.png);
+	background-size: cover;
+}
+
+.box5{
+	background: url(../images/webs/charcasxyz.png);
+	background-size: cover;
+}
+.boxbrexy{
+	background: url(../images/webs/brexy.png);
+	background-size: cover;
+}
+.boxayuntamiento{
+	background: url(../images/webs/ayuntamiento.png);
+	background-size: cover;
+}
+.boxdifdoctormora{
+	background: url(../images/webs/difdoctormora.png);
+	background-size: cover;
+}
+.boxdyxerteam{
+	background: url(../images/webs/dyxerteam.png);
+	background-size: cover;
+}
+.boxlosduraznos{
+	background: url(../images/webs/losduraznos.png);
 	background-size: cover;
 }
 .box:hover{
