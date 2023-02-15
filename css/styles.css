@@ -19,7 +19,7 @@ a{
 }
 
 
-/*
+
 
 @media (prefers-color-scheme: dark){
 	:root{
@@ -27,7 +27,10 @@ a{
 	}
 }
 
-*/
+.dd{
+	border: 2px solid white;
+}
+
 body{
 	font-family: 'Space Mono', monospace !important;
 	cursor: url(../images/pointer.cur), default;
