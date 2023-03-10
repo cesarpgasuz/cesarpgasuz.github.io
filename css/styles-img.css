@@ -45,6 +45,10 @@
 	background: url(../images/webs/losduraznos.png);
 	background-size: cover;
 }
+.boxdoctormora{
+	background: url(../images/webs/doctormora.png);
+	background-size: cover;
+}
 .box:hover{
 	background-position: bottom;
 }
