@@ -21,11 +21,11 @@ a{
 
 
 
-@media (prefers-color-scheme: dark){
+/* @media (prefers-color-scheme: dark){
 	:root{
 		--principal: #000;
 	}
-}
+} */
 
 .dd{
 	border: 2px solid white;
@@ -186,6 +186,27 @@ body{
 	position: relative;
 	margin-left: -20px;
 }
+
+.curriculum{
+	color: #f40c48;
+    position: relative;
+	display: inline-block;
+    padding: 5px 0px;
+	margin-top: 30px;
+	text-decoration: none;
+
+}
+.curriculum:visited{
+	color: #f40c48;
+	text-decoration: none;
+	text-shadow: 0px 0px 13px #f40c48;
+}
+.curriculum:hover{
+	color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0px 0px 13px #00d8ff;
+}
+
 
 /* estilos servicios */
 
